@@ -19,10 +19,23 @@
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+            text-align: center; /* Căn giữa nội dung */
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Tạo khung tròn */
+            overflow: hidden;
+            margin: 0 auto 20px; /* Căn giữa và tạo khoảng cách dưới */
+            border: 5px solid #ff69b4; /* Viền hồng */
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
         }
         h1 {
             color: #ff69b4;
-            text-align: center;
             font-size: 36px;
             margin-bottom: 10px;
         }
@@ -31,6 +44,7 @@
             font-size: 24px;
             border-bottom: 2px solid #ffb6c1;
             padding-bottom: 5px;
+            text-align: left; /* Tiêu đề các phần căn trái */
         }
         p, li {
             font-size: 18px;
@@ -39,6 +53,7 @@
         ul {
             list-style-type: none;
             padding-left: 0;
+            text-align: left; /* Danh sách căn trái */
         }
         ul li:before {
             content: "✅ ";
@@ -55,6 +70,9 @@
 </head>
 <body>
     <div class="container">
+        <div class="avatar">
+            <img src="https://github.com/minmincuti/-my-portfolio/blob/main/z6402640321814_786667b1d0587d5ae8c96c062f5b130c.jpg?raw=true" alt="Ngô Thị Mến Avatar">
+        </div>
         <h1>Ngô Thị Mến - Graphic Designer 🎨</h1>
 
         <div class="intro">
